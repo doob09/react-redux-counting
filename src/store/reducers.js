@@ -3,7 +3,7 @@ const initialState = {
     Age: 21
 };
 
-const reducer = (state = initialState, action){
+const reducer = (state = initialState, action) => {
     const newState = [...state];
 
     return newState;
